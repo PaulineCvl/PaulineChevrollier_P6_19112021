@@ -1,0 +1,26 @@
+{
+  "name": "paulinechevrollier_p6_09112021",
+  "version": "1.0.0",
+  "description": "Here are the dependancies you need to install:\r - NodeJS 12.14 or 14.0.\r - Angular CLI 7.0.2.\r - node-sass : make sure to use the corresponding version to NodeJS. For Noe 14.0 for instance, you need node-sass in version 4.14+.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.1.0",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "password-validator": "^5.2.1"
+  }
+}
